@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "A Typescript Winston logger with some pre-configured options",
   "main": "index.js",
+  "private": false,
   "scripts": {
-    "build": "npm-run-all lint tsc",
+    "build": "npm-run-all lint test tsc",
     "tsc": "tsc",
     "lint": "eslint . --ext .ts --fix",
     "test": "jest"
