@@ -2,5 +2,6 @@ export {
 	Config,
 	getLogger,
 	getLoggerConfig,
-	Levels
+	Levels,
+	TSLogger
 } from './src';
