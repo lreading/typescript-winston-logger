@@ -21,7 +21,7 @@ export class Format {
 
 
 	static default(): winston.Logform.Format {
-		return winston.format.printf((info): string => {
+		return winston.format.printf((info: winston.Logform.TransformableInfo): string => {
 			const { label, level, stack, timestamp } = info;
 			let { code, message } = info;
 			code = code ? `${code} ` : '';

@@ -1,8 +1,8 @@
 {
   "name": "@lreading/typescript-winston-logger",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "A Typescript Winston logger with some pre-configured options",
-  "main": "index.js",
+  "main": "dist/index.js",
   "private": false,
   "scripts": {
     "build": "npm-run-all lint test tsc",
